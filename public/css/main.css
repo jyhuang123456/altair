@@ -1,0 +1,81 @@
+.main{margin: 0px;padding: 0px;width: 100%;overflow-x: hidden;min-width: 1200px;}
+.header{position: relative;padding-bottom: 0px;}
+.header_bar{position: relative;width: 100%;height: 83px;z-index: 444;}
+.header_menu{width: 1000px;margin:0 auto;}
+.logo_img{margin-top: 25px;}
+.tel_div{width: 80%;height: 22px;background-color: #ffffff;margin-top: 30px;border-radius: 20px;position: relative;}
+.tel_div>span{font-size: 10px;position: relative;left: 10px;top:1px;font-weight: 900;}
+.tip{position: absolute;background-color: #000000;width: 15px;height: 15px;border-radius: 15px;top: 25px;left: 25px;color: #ffffff;font-size: 10px;font-weight: 700;padding-left: 4px;padding-right:4px;}
+.menu_div{margin-top: 30px;}
+.menu_div>div{display: inline-block; float: left;}
+.menu_div>div>span{padding-left: 12px;padding-right: 12px;color: #ffffff;font-weight: 700;font-size:15px;}
+.menu_div>div>span:hover{cursor:pointer}
+a{color: #ffffff!important;font-weight: 700;}
+a:link{color: #ffffff!important;font-weight: 700;}
+a:visited{color:#ffffff!important;font-weight: 700;}
+a:hover{color:#ffffff!important;font-weight: 700;}
+a:active{color:#ffffff!important;font-weight: 700;}
+.offers_div{padding-top: 20px;}
+.offers_div>p{text-align: center;font-size: 30px;line-height: 30px;font-weight: 700;}
+.offers_div>p>span{font-size: 12px !important;  color: #b63327;font-style: italic;}
+.offers_img{width: 100%;}
+.offers_div>div>div{padding: 0px;margin: 0px;padding-left: 2px!important;padding-bottom:0px!important;position: relative;}
+.offers_div>div>div>div{opacity:0.7;filter:alpha(opacity=70);color: #ffffff;font-size: 20px;font-weight: 700;padding-left: 20px;}
+
+/* jssor slider bullet navigator skin 01 css */
+/*
+.jssorb01 div           (normal)
+.jssorb01 div:hover     (normal mouseover)
+.jssorb01 .av           (active)
+.jssorb01 .av:hover     (active mouseover)
+.jssorb01 .dn           (mousedown)
+*/
+.jssorb01 {
+    position: absolute;
+}
+.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 12px;
+    height: 12px;
+    filter: alpha(opacity=70);
+    opacity: .7;
+    overflow: hidden;
+    cursor: pointer;
+    border: #000 1px solid;
+}
+.jssorb01 div { background-color: gray; }
+.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+.jssorb01 .av { background-color: #fff; }
+.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+/* jssor slider arrow navigator skin 03 css */
+/*
+.jssora03l                  (normal)
+.jssora03r                  (normal)
+.jssora03l:hover            (normal mouseover)
+.jssora03r:hover            (normal mouseover)
+.jssora03l.jssora03ldn      (mousedown)
+.jssora03r.jssora03rdn      (mousedown)
+.jssora03l.jssora03ldn      (disabled)
+.jssora03r.jssora03rdn      (disabled)
+*/
+.jssora03l, .jssora03r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: url('public/img/a03.png') no-repeat;
+    overflow: hidden;
+}
+.jssora03l { background-position: -3px -33px; }
+.jssora03r { background-position: -63px -33px; }
+.jssora03l:hover { background-position: -123px -33px; }
+.jssora03r:hover { background-position: -183px -33px; }
+.jssora03l.jssora03ldn { background-position: -243px -33px; }
+.jssora03r.jssora03rdn { background-position: -303px -33px; }
+.jssora03l.jssora03lds { background-position: -3px -33px; opacity: .3; pointer-events: none; }
+.jssora03r.jssora03rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
+.search_form{width: 1000px;margin: 0 auto;padding-top: 20px;padding-bottom: 20px;}
